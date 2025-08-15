@@ -45,17 +45,6 @@ project/
    cd UCEV-website
    ```
 2. **Open `index.html` in your browser** — no build step required.
-3. **Optional:** Serve via a local web server for fetch requests to work:
-
-   ```bash
-   npx serve
-   ```
-
-   or
-
-   ```bash
-   python -m http.server 8000
-   ```
 
 ---
 
