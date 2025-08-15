@@ -41,8 +41,8 @@ project/
 1. **Clone this repository:**
 
    ```bash
-   https://github.com/allenimmnauel018/UCEV-Website.git
-   cd UCEV-website
+   https://github.com/allenimmnauel018/UCEV-blog.git
+   cd UCEV-blog
    ```
 2. **Open `index.html` in your browser** — no build step required.
 
