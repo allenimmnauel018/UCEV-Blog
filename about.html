@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>About — UCEV</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="University College of Engineering Villupuram — about the college, mission, campus and placements">
+    <meta name="keywords" content="UCEV, University College of Engineering Villupuram, about UCEV, college mission, campus, placements">
+    <meta name="author" content="UCEV Blog Team">
+    <link rel="icon" href="assets/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand" onclick="navigate('/')">
+                <img src="assets/logo.png" alt="UCEV Logo" class="logo" onerror="this.style.display='none'" loading="lazy">
+                <div>
+                    <h1>UCEV Blog</h1>
+                    <p class="tagline">News, events & student projects — Villupuram</p>
+                </div>
+            </div>
+
+            <nav class="nav">
+                <button class="nav-toggle" aria-expanded="false" onclick="toggleNav()">
+                    ☰
+                </button>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="departments.html">Departments</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="container section">
+        <h2 class="reveal">About University College of Engineering — Villupuram</h2>
+        <p class="reveal">University College of Engineering, Villupuram (UCEV) is a constituent college of Anna
+            University, established in 2008. It offers undergraduate programs in core engineering disciplines and
+            promotes research & placements.</p>
+
+        <div class="cards-grid">
+            <article class="info-card reveal">
+                <h3>Mission</h3>
+                <p>To provide excellent technical education and produce industry-ready graduates who will contribute to
+                    society.</p>
+            </article>
+            <article class="info-card reveal">
+                <h3>Campus</h3>
+                <p>Campus at Kakuppam, Villupuram. Academic buildings, labs, library and student facilities.</p>
+            </article>
+            <article class="info-card reveal">
+                <h3>Placements</h3>
+                <p>Active placement cell with recruiters visiting campus regularly. Contact the placement office for
+                    details.</p>
+            </article>
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> UCEV</p>
+            <div></div>
+        </div>
+    </footer>
+
+    <div id="toast" class="toast"></div>
+    <script src="script.js"></script>
+    <script>initBasic()</script>
+</body>
+
+</html>

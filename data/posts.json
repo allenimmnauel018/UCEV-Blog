@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "Graduation Day 2024 — Highlights",
+    "dept": "all",
+    "tags": ["event"],
+    "date": "2024-12-28",
+    "excerpt": "The campus celebrated Graduation Day with joy, featuring keynote speeches, cultural performances, and the awarding of degrees to over 500 graduates.",
+    "content": "Full article detailing the chief guest’s speech, cultural programs, award winners, and student testimonials."
+  },
+  {
+    "id": 2,
+    "title": "CSE Workshop — Full Stack Development",
+    "dept": "cse",
+    "tags": ["workshop", "cse"],
+    "date": "2024-09-15",
+    "excerpt": "Hands-on workshop on modern web stacks including MERN and deployment practices.",
+    "content": "Session covered HTML, CSS, JavaScript, React, Node.js, MongoDB, and deploying projects to cloud platforms. Industry experts guided students through real projects."
+  },
+  {
+    "id": 3,
+    "title": "Placement Drive — 2024 Recruiters Visit",
+    "dept": "placement",
+    "tags": ["placement"],
+    "date": "2024-11-10",
+    "excerpt": "Over 30 top companies visited our campus offering diverse roles.",
+    "content": "Recruiters included Infosys, TCS, Wipro, Amazon, and Tech Mahindra. 85% of final-year students secured offers."
+  },
+  {
+    "id": 4,
+    "title": "IoT Demo Day — ECE Department",
+    "dept": "ece",
+    "tags": ["iot", "ece"],
+    "date": "2024-08-25",
+    "excerpt": "Innovative IoT projects showcased by ECE students.",
+    "content": "Projects ranged from smart farming solutions to AI-based traffic management. Judged by industry professionals."
+  },
+  {
+    "id": 5,
+    "title": "Civil Engineering — Bridge Design Contest",
+    "dept": "civil",
+    "tags": ["civil", "competition"],
+    "date": "2024-07-10",
+    "excerpt": "Annual contest to design sustainable bridges using simulation tools.",
+    "content": "Teams competed using STAAD.Pro, judged on innovation, stability, and sustainability."
+  },
+  {
+    "id": 6,
+    "title": "National Level Hackathon Winners — CSE",
+    "dept": "cse",
+    "tags": ["achievement", "hackathon"],
+    "date": "2024-06-05",
+    "excerpt": "Our CSE students bagged the first prize at a national hackathon.",
+    "content": "Developed an AI-powered waste segregation system. Mentored by faculty and industry experts."
+  },
+  {
+    "id": 7,
+    "title": "ECE Alumni Talk — Career in VLSI",
+    "dept": "ece",
+    "tags": ["seminar", "vlsi"],
+    "date": "2024-05-22",
+    "excerpt": "Alumnus from Intel shared insights into VLSI design careers.",
+    "content": "Covered semiconductor industry trends, job roles, and skill sets needed."
+  },
+  {
+    "id": 8,
+    "title": "Library — Digital Resource Expansion",
+    "dept": "all",
+    "tags": ["academics", "library"],
+    "date": "2024-04-15",
+    "excerpt": "Library now offers 500+ new e-books and subscriptions to international journals.",
+    "content": "Students can access IEEE, Springer, and Elsevier resources from anywhere using the library portal."
+  },
+  {
+    "id": 9,
+    "title": "Mechanical Engineering — Robotics Club Inauguration",
+    "dept": "mech",
+    "tags": ["robotics", "club"],
+    "date": "2024-03-28",
+    "excerpt": "Robotics club launched to encourage innovation in automation.",
+    "content": "Plans to participate in national robotics competitions and host workshops."
+  },
+  {
+    "id": 10,
+    "title": "Annual Sports Meet — 2024",
+    "dept": "all",
+    "tags": ["sports", "event"],
+    "date": "2024-02-18",
+    "excerpt": "Inter-departmental sports meet held with great enthusiasm.",
+    "content": "Events included athletics, cricket, football, and volleyball. Winners were honored at the closing ceremony."
+  },
+  {
+    "id": 11,
+    "title": "Cultural Fest — AURA 2024",
+    "dept": "all",
+    "tags": ["cultural", "event"],
+    "date": "2024-01-25",
+    "excerpt": "Three-day fest with music, dance, drama, and art competitions.",
+    "content": "Celebrity performances, student talent shows, and food stalls drew large crowds."
+  },
+  {
+    "id": 12,
+    "title": "Placement Training Program — Soft Skills",
+    "dept": "placement",
+    "tags": ["training", "placement"],
+    "date": "2023-12-15",
+    "excerpt": "A month-long program to boost communication, aptitude, and interview skills.",
+    "content": "Sessions conducted by professional trainers with mock interviews and group discussions."
+  },
+  {
+    "id": 13,
+    "title": "Graduation Day 2024 — Highlights",
+    "dept": "all",
+    "tags": ["event"],
+    "date": "2024-12-28",
+    "excerpt": "Convocation ceremony and award winners.",
+    "content": "<p>Convocation highlights, chief guest speech, award winners and photos.</p>"
+  },
+  {
+    "id": 14,
+    "title": "Annual Sports Meet — Results",
+    "dept": "all",
+    "tags": ["sports", "event"],
+    "date": "2024-02-18",
+    "excerpt": "Results of the inter-departmental sports meet.",
+    "content": "<p>Highlights of athletics, cricket, football and volleyball events.</p>"
+  },
+  {
+    "id": 15,
+    "title": "Cultural Fest AURA 2024 — Summary",
+    "dept": "all",
+    "tags": ["cultural", "event"],
+    "date": "2024-01-25",
+    "excerpt": "Summary of the three-day cultural fest with performances and competitions.",
+    "content": "<p>Celebrity shows, student performances and food stalls.</p>"
+  },
+  {
+    "id": 16,
+    "title": "Placement Training Program — Soft Skills",
+    "dept": "placement",
+    "tags": ["training", "placement"],
+    "date": "2023-12-15",
+    "excerpt": "Soft skills training program for final-year students.",
+    "content": "<p>Focus on communication, aptitude and mock interviews.</p>"
+  }
+]

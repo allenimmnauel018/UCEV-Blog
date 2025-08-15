@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>UCEV Blog — Home</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="University College of Engineering Villupuram — blog & news" />
+  <meta name="keywords" content="UCEV, University College of Engineering Villupuram, blog, news, events, student projects" />
+  <meta name="author" content="UCEV Blog Team" />
+  <link rel="icon" href="assets/logo.ico" type="image/x-icon" />
+
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand" onclick="navigate('/')">
+        <img src="assets/logo.png" alt="UCEV Logo" class="logo" onerror="this.style.display='none'" loading="lazy"/>
+        <div>
+          <h1>UCEV Blog</h1>
+          <p class="tagline">News, events & student projects — Villupuram</p>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <button class="nav-toggle" aria-expanded="false" onclick="toggleNav()">
+          ☰
+        </button>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="departments.html">Departments</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h2 class="animated-title">
+            Shaping Engineers since <span id="est-year">2008</span>
+          </h2>
+          <p class="lead">
+            Official blog for University College of Engineering — Villupuram.
+            Events, news, workshops and placement updates.
+          </p>
+          <div class="cta-row">
+            <a class="btn" href="about.html">About the College</a>
+            <a class="btn btn-outline" href="#posts-section">Latest Posts</a>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="card-top">
+            <h3>Quick facts</h3>
+            <ul class="facts">
+              <li>Established: 2008</li>
+              <li>Affiliation: Anna University</li>
+              <li>Location: Villupuram, Tamil Nadu</li>
+            </ul>
+          </div>
+          <div class="card-bottom">
+            <button id="subscribeBtn" class="btn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="posts-section" class="section container">
+      <div class="section-head">
+        <h2>News & Blog</h2>
+        <div class="controls">
+          <input id="searchInput" placeholder="Search posts, tags or titles..." />
+          <select id="filterDept">
+            <option value="all">All</option>
+            <option value="cse">Computer Science</option>
+            <option value="ece">ECE</option>
+            <option value="mech">Mechanical</option>
+            <option value="it">IT</option>
+            <option value="placement">Placement</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="posts" class="posts-grid" aria-live="polite"></div>
+
+      <div class="load-more-wrap">
+        <button id="loadMore" class="btn btn-outline">Load more</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>
+        © <span id="year"></span> University College of Engineering —
+        Villupuram
+      </p>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+  <script>
+    initHome();
+  </script>
+</body>
+
+</html>

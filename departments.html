@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Departments — UCEV</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="University College of Engineering Villupuram — explore our engineering departments and programs">
+    <meta name="keywords" content="UCEV, University College of Engineering Villupuram, departments, engineering programs, CSE, ECE, EEE, Mechanical, Civil">    
+    <meta name="author" content="UCEV Blog Team">
+    <link rel="icon" href="assets/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand" onclick="navigate('/')">
+                <img src="assets/logo.png" alt="UCEV Logo" class="logo" onerror="this.style.display='none'" loading="lazy">
+                <div>
+                    <h1>UCEV Blog</h1>
+                    <p class="tagline">News, events & student projects — Villupuram</p>
+                </div>
+            </div>
+
+            <nav class="nav">
+                <button class="nav-toggle" aria-expanded="false" onclick="toggleNav()">
+                    ☰
+                </button>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="departments.html">Departments</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="container section">
+        <h2 class="reveal">Departments</h2>
+        <p class="reveal">Detailed department profiles, labs, programmes and contact information. Data extracted from
+            the official college pages and Anna University listing.</p>
+
+        <div id="deptGrid" class="dept-grid"></div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> UCEV</p>
+        </div>
+    </footer>
+
+    <div id="toast" class="toast"></div>
+    <script src="script.js"></script>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            initBasic();
+            const grid = document.getElementById('deptGrid');
+            try {
+                const res = await fetch('data/departments.json');
+                const depts = await res.json();
+                depts.forEach(d => {
+                    const card = document.createElement('article');
+                    card.className = 'info-card reveal';
+                    card.innerHTML = `
+            <h4>${d.name}</h4>
+            <p><strong>Head:</strong> ${d.head || '—'}</p>
+            <p>${d.about}</p>
+            <p><strong>Established:</strong> ${d.established || '2008'}</p>
+            <p><strong>Programs:</strong> ${(d.programs || []).join(', ')}</p>
+            <p><strong>Labs / Facilities:</strong> ${(d.labs || []).join(', ')}</p>
+            <p><strong>Contact:</strong> ${d.contact?.phone || ''} • ${d.contact?.email || ''}</p>
+            <div style="margin-top:10px;display:flex;gap:8px">
+              <a class="btn" href="index.html?dept=${encodeURIComponent(d.id)}">View News</a>
+              <button class="btn btn-outline" onclick="toast.show('Contact: ${d.contact?.email || 'ucev_auc@yahoo.com'}')">Contact Dept</button>
+            </div>
+          `;
+                    grid.appendChild(card);
+                });
+
+                setupReveal();
+            } catch (e) {
+                grid.innerHTML = '<p>Departments data could not be loaded.</p>';
+            }
+        });
+    </script>
+</body>
+
+</html>

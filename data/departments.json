@@ -1,0 +1,84 @@
+[
+  {
+    "id": "cse",
+    "name": "Computer Science & Engineering",
+    "about": "The CSE Department focuses on programming, data structures, algorithms, software engineering, AI/ML and research-led projects. It runs project labs and hands-on workshops to prepare students for industry and research.",
+    "head": "Dr. R. Regan (HOD) / Dr. P. Arjun (Faculty listed)",
+    "established": "2008",
+    "labs": [
+      "Programming Lab",
+      "AI & ML Lab",
+      "Cloud & Networks Lab",
+      "DBMS Lab"
+    ],
+    "programs": [
+      "B.E. Computer Science & Engineering",
+      "Project & Research activities"
+    ],
+    "contact": { "email": "ucev_auc@yahoo.com", "phone": "04146-224500" },
+    "notes": "Faculty list & individual profiles available on the site (faculties pages)."
+  },
+  {
+    "id": "ece",
+    "name": "Electronics & Communication Engineering",
+    "about": "ECE department emphasizes embedded systems, VLSI, signal processing, communications and IoT. Students showcase projects (IoT demo days) and the department hosts workshops and industry talks.",
+    "head": "HOD listed on departmental pages",
+    "established": "2008",
+    "labs": ["VLSI Lab", "Embedded Systems Lab", "Signal Processing Lab"],
+    "programs": ["B.E. Electronics & Communication Engineering"],
+    "contact": { "email": "ucev_auc@yahoo.com", "phone": "04146-224500" },
+    "notes": "Project exhibitions and IoT demo day activities are reported on the college news/announcements."
+  },
+  {
+    "id": "mech",
+    "name": "Mechanical Engineering",
+    "about": "Mechanical Department focuses on manufacturing, design, thermodynamics, CAD/CAM and robotics. The department runs practical labs and student clubs (robotics) and organises technical symposiums.",
+    "head": "HOD / Senior faculty (see site pages)",
+    "established": "2008",
+    "labs": [
+      "CAD/CAM Lab",
+      "Thermal Engineering Lab",
+      "Manufacturing Lab",
+      "Robotics Lab"
+    ],
+    "programs": ["B.E. Mechanical Engineering"],
+    "contact": { "email": "ucev_auc@yahoo.com", "phone": "04146-224500" },
+    "notes": "Mechanical organizes inter-departmental competitions and symposiums."
+  },
+  {
+    "id": "it",
+    "name": "Information Technology",
+    "about": "The IT department offers training and courses in software development, cloud computing, networking and web technologies. It collaborates with CSE for workshops and internships.",
+    "head": "HOD / Faculty listed on the site",
+    "established": "2008",
+    "labs": ["Networking Lab", "Web & Cloud Lab", "Security Lab"],
+    "programs": ["B.E. Information Technology"],
+    "contact": { "email": "ucev_auc@yahoo.com", "phone": "04146-224500" },
+    "notes": "IT & CSE run many joint events and placement activities."
+  },
+  {
+    "id": "science",
+    "name": "Science & Humanities",
+    "about": "This department covers foundational sciences (Mathematics, Physics, Chemistry) and communication / professional skills courses that support the engineering curriculum.",
+    "head": "Faculty Coordinators (see site)",
+    "established": "2008",
+    "labs": ["Physics Lab", "Chemistry Lab", "Language & Communication Lab"],
+    "programs": ["Foundation courses for UG programs"],
+    "contact": { "email": "ucev_auc@yahoo.com", "phone": "04146-224500" }
+  },
+  {
+    "id": "placement",
+    "name": "Training & Placement Cell (TPC)",
+    "about": "The Training & Placement Cell (TPC) coordinates placement activities, industry connections and student training. Established around 2010 to strengthen campus recruitments and skill development.",
+    "head": "Placement Officer (see site)",
+    "established": "2010",
+    "services": [
+      "Pre-placement training",
+      "Company liaison",
+      "Internship coordination",
+      "Mock interviews"
+    ],
+    "contact": { "email": "ucev_auc@yahoo.com", "phone": "04146-224500" },
+    "notes": "Placement page and placement statistics are published on the college site. The TPC works with Anna University’s CUIC for placements. "
+  }
+]
